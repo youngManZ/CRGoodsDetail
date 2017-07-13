@@ -1,0 +1,15 @@
+PODS:
+  - CRGoodsDetailServiceProtocol (0.0.2)
+  - CRProtocolManager (0.0.2)
+
+DEPENDENCIES:
+  - CRGoodsDetailServiceProtocol
+  - CRProtocolManager
+
+SPEC CHECKSUMS:
+  CRGoodsDetailServiceProtocol: 13b4e5afce3cf46dee8e227679a31e1ae68303f3
+  CRProtocolManager: e9097458cfaf71cbca1f7d15127c6319b14e29fa
+
+PODFILE CHECKSUM: 5fe2bf2fef718cca5df6b547748f0462a8afe1c9
+
+COCOAPODS: 1.1.1
