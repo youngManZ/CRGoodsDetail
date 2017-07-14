@@ -1,15 +1,23 @@
 PODS:
   - CRGoodsDetailServiceProtocol (0.0.2)
   - CRProtocolManager (0.0.2)
+  - ZTOrderProtocol (0.0.6)
+  - ZTOrderServerProvide (0.0.10):
+    - CRProtocolManager
+    - ZTOrderProtocol
 
 DEPENDENCIES:
   - CRGoodsDetailServiceProtocol
   - CRProtocolManager
+  - ZTOrderProtocol
+  - ZTOrderServerProvide
 
 SPEC CHECKSUMS:
   CRGoodsDetailServiceProtocol: 13b4e5afce3cf46dee8e227679a31e1ae68303f3
   CRProtocolManager: e9097458cfaf71cbca1f7d15127c6319b14e29fa
+  ZTOrderProtocol: 1c87f23017267e323a24e9d8854f857bf6ff2c55
+  ZTOrderServerProvide: 02b12e07f3e40d2a76b140d91d44b74782677c6a
 
-PODFILE CHECKSUM: 5fe2bf2fef718cca5df6b547748f0462a8afe1c9
+PODFILE CHECKSUM: 3edebd7e3cba2c747ec6a330221062a1e6bbc8bb
 
 COCOAPODS: 1.1.1

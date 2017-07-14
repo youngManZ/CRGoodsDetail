@@ -7,16 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C0FF4E0AC0AC4E55A15FBB2245480CA /* Pods-CRGoodsDetail-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5529B4E1146BA0FBC8084D2CCECA59 /* Pods-CRGoodsDetail-dummy.m */; };
-		7BD1AFA6CFC39361495ABE5782E3BED9 /* CRProtocolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C8186561C0ED391020B968F9D9E714 /* CRProtocolManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C2B4DDF11204D2469DEA6C9E84088C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		CC834A761AC4F909D1E88C007CC0EC42 /* CRProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F5407EFBD3F5604CA0B8E12BB20786 /* CRProtocolManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		DDBB96839718260AC1C542805141A519 /* CRProtocolManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2627DA5962B90AB8E31D12DAF09490 /* CRProtocolManager-dummy.m */; };
-		F5954E87720A40C3F9FB1435F3E5B3BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		04AFAED8427403A009146B36CBB563B8 /* ZTOrderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BBA93B79E55D5183D69EA7CD60CCB86 /* ZTOrderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AAF37D2F13B916B7FB25E11D9B549DB /* Pods-CRGoodsDetail-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5529B4E1146BA0FBC8084D2CCECA59 /* Pods-CRGoodsDetail-dummy.m */; };
+		6DEA045F4F24519C32DCEA5D4FFE9D8A /* ZTOrderServerProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A3923EE67CA6D1A5C5C243BDE1F7F7 /* ZTOrderServerProvide.m */; };
+		704D0337BB305D107C867FAD011A1D90 /* ZTOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E298668E9F57C89B2880DCA591DFB51C /* ZTOrderViewController.m */; };
+		7173D74D350470D6487BCCED109E32C4 /* ZTOrderServerProvide-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FAFDDC38D79FB78A95F38C5A541E06 /* ZTOrderServerProvide-dummy.m */; };
+		74016B65F873005B427D6AAFCB0A3E1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		7BD1AFA6CFC39361495ABE5782E3BED9 /* CRProtocolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 367086A725AE4C5FF19C940E88490973 /* CRProtocolManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81A94B9A83C569D47214E7935448C32B /* ZTOrderServerProvide.h in Headers */ = {isa = PBXBuildFile; fileRef = 091DAE70A0057C03585E73B32809BF2F /* ZTOrderServerProvide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DD67B17435CF6845070A7B677C6CAB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		9C2B4DDF11204D2469DEA6C9E84088C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		B2EDD25AA866F47F90B6DAD43675F514 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		CC834A761AC4F909D1E88C007CC0EC42 /* CRProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F826D86DDBF1F308F763660AEB988B /* CRProtocolManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DDBB96839718260AC1C542805141A519 /* CRProtocolManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7838662AB5667A146693B7A05119D53 /* CRProtocolManager-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2808455967C8D46A9A257389D899E56D /* PBXContainerItemProxy */ = {
+		09847BB8F7C4C0FD8EAE3354E1412F88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0D5035A2431CBFE7B40EDEC7392A330;
+			remoteInfo = ZTOrderServerProvide;
+		};
+		A298243175CAD09236D0504735745238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4110ED21358443C7C4BC974FA1BF5F1;
+			remoteInfo = CRProtocolManager;
+		};
+		D7400A768D01ECAE365C7D163FFBA6D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -26,31 +47,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		051CA0F043B08B1B3C2F50250D2BC630 /* CRProtocolManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CRProtocolManager.xcconfig; sourceTree = "<group>"; };
+		091DAE70A0057C03585E73B32809BF2F /* ZTOrderServerProvide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZTOrderServerProvide.h; path = ZTOrderServerProvide/ZTOrderServerProvide/ZTOrderServerProvide.h; sourceTree = "<group>"; };
+		366E73877D69469775FFC46B6D014043 /* ZTOrderServerProvide.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZTOrderServerProvide.xcconfig; sourceTree = "<group>"; };
+		367086A725AE4C5FF19C940E88490973 /* CRProtocolManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRProtocolManager.h; path = CRProtocolManager/CRProtocolManager/CRProtocolManager.h; sourceTree = "<group>"; };
 		3DC60587C199CDA236B658FA24330CE4 /* Pods-CRGoodsDetail-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CRGoodsDetail-acknowledgements.plist"; sourceTree = "<group>"; };
+		4062846307AEA8292910272EF31C3EE4 /* libCRProtocolManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCRProtocolManager.a; path = libCRProtocolManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D5DA442755B37F652C4A8966187840 /* CRGoodsDetailServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRGoodsDetailServiceProtocol.h; path = CRGoodsDetailServiceProtocol/CRGoodsDetailServiceProtocol/CRGoodsDetailServiceProtocol.h; sourceTree = "<group>"; };
 		4AD2B3B76618F454DEA296D4A2F369BB /* Pods-CRGoodsDetail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRGoodsDetail.release.xcconfig"; sourceTree = "<group>"; };
-		534D17361CF9A82C60BFAC29D8E9592B /* CRProtocolManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRProtocolManager-prefix.pch"; sourceTree = "<group>"; };
+		5BBA93B79E55D5183D69EA7CD60CCB86 /* ZTOrderViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZTOrderViewController.h; path = ZTOrderServerProvide/ZTOrderServerProvide/ZTOrderViewController.h; sourceTree = "<group>"; };
 		60AAF204DD7FB189645A5899D34D005F /* Pods-CRGoodsDetail-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRGoodsDetail-frameworks.sh"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6BDD9B96BA32555C93FDA4044FB17E5F /* Pods-CRGoodsDetail-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRGoodsDetail-resources.sh"; sourceTree = "<group>"; };
+		6CD4261083A6E42B2FD3DB13BF57427F /* ZTOrderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZTOrderProtocol.h; path = ZTOrderProtocol/ZTOrderProtocol/ZTOrderProtocol.h; sourceTree = "<group>"; };
+		6E305D8E8189678B8765377EADBF0EAB /* libPods-CRGoodsDetail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CRGoodsDetail.a"; path = "libPods-CRGoodsDetail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E5529B4E1146BA0FBC8084D2CCECA59 /* Pods-CRGoodsDetail-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CRGoodsDetail-dummy.m"; sourceTree = "<group>"; };
 		72B880CB96ACBE7EFC94A7FD2C5B17ED /* Pods-CRGoodsDetail-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CRGoodsDetail-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7FE74531E0791C29FBD6B2C9A2D6C90A /* libCRProtocolManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCRProtocolManager.a; path = libCRProtocolManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E2627DA5962B90AB8E31D12DAF09490 /* CRProtocolManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CRProtocolManager-dummy.m"; sourceTree = "<group>"; };
+		786E26BCA6C36879C3B630DADB5D2B17 /* ZTOrderServerProvide-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZTOrderServerProvide-prefix.pch"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		81F826D86DDBF1F308F763660AEB988B /* CRProtocolManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRProtocolManager.m; path = CRProtocolManager/CRProtocolManager/CRProtocolManager.m; sourceTree = "<group>"; };
+		90093893E93E0944A5FF2263A2FCB05B /* CRProtocolManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRProtocolManager-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2087DCD708F6FE26B326E02B3C579C5 /* Pods-CRGoodsDetail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRGoodsDetail.debug.xcconfig"; sourceTree = "<group>"; };
-		A2C8186561C0ED391020B968F9D9E714 /* CRProtocolManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRProtocolManager.h; path = CRProtocolManager/CRProtocolManager/CRProtocolManager.h; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CF901C218070576AA900494FF44D3E98 /* libPods-CRGoodsDetail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CRGoodsDetail.a"; path = "libPods-CRGoodsDetail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1F5407EFBD3F5604CA0B8E12BB20786 /* CRProtocolManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRProtocolManager.m; path = CRProtocolManager/CRProtocolManager/CRProtocolManager.m; sourceTree = "<group>"; };
-		DE3A072E7B2811AA800D1AF320FD755C /* CRGoodsDetailServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRGoodsDetailServiceProtocol.h; path = CRGoodsDetailServiceProtocol/CRGoodsDetailServiceProtocol/CRGoodsDetailServiceProtocol.h; sourceTree = "<group>"; };
+		B9A3923EE67CA6D1A5C5C243BDE1F7F7 /* ZTOrderServerProvide.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZTOrderServerProvide.m; path = ZTOrderServerProvide/ZTOrderServerProvide/ZTOrderServerProvide.m; sourceTree = "<group>"; };
+		BB8617DF045FFB50499C13786EBF0912 /* libZTOrderServerProvide.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZTOrderServerProvide.a; path = libZTOrderServerProvide.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8FBD56B1280D3249BEEBE0C5A179476 /* CRProtocolManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CRProtocolManager.xcconfig; sourceTree = "<group>"; };
+		C9FAFDDC38D79FB78A95F38C5A541E06 /* ZTOrderServerProvide-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZTOrderServerProvide-dummy.m"; sourceTree = "<group>"; };
+		D7838662AB5667A146693B7A05119D53 /* CRProtocolManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CRProtocolManager-dummy.m"; sourceTree = "<group>"; };
+		E298668E9F57C89B2880DCA591DFB51C /* ZTOrderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZTOrderViewController.m; path = ZTOrderServerProvide/ZTOrderServerProvide/ZTOrderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5CDC004ACD7B1EF1987CCAD90EEB458E /* Frameworks */ = {
+		0985907FED9CA182A764639B3D39D712 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5954E87720A40C3F9FB1435F3E5B3BD /* Foundation.framework in Frameworks */,
+				8DD67B17435CF6845070A7B677C6CAB7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,33 +93,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E2049FD634EFC31757B55CA919B70BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EDD25AA866F47F90B6DAD43675F514 /* Foundation.framework in Frameworks */,
+				74016B65F873005B427D6AAFCB0A3E1C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D4EB0B8DC5FEF5E79AFF9B838E716E7 /* Pods */ = {
+		018A275B30B87586DFF5CD09BE09EA23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1736D7408F101B2128F41595E59A6987 /* CRGoodsDetailServiceProtocol */,
-				915BCDE01780CBB0A7C7B85902A33B21 /* CRProtocolManager */,
+				4062846307AEA8292910272EF31C3EE4 /* libCRProtocolManager.a */,
+				6E305D8E8189678B8765377EADBF0EAB /* libPods-CRGoodsDetail.a */,
+				BB8617DF045FFB50499C13786EBF0912 /* libZTOrderServerProvide.a */,
 			);
-			name = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		1736D7408F101B2128F41595E59A6987 /* CRGoodsDetailServiceProtocol */ = {
+		06895951BB77A1DE8F8FA674B1563BA9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DE3A072E7B2811AA800D1AF320FD755C /* CRGoodsDetailServiceProtocol.h */,
-			);
-			name = CRGoodsDetailServiceProtocol;
-			path = CRGoodsDetailServiceProtocol;
-			sourceTree = "<group>";
-		};
-		1D8D1BF2BB0B2EA24FB47FBEDDE3F80E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				051CA0F043B08B1B3C2F50250D2BC630 /* CRProtocolManager.xcconfig */,
-				8E2627DA5962B90AB8E31D12DAF09490 /* CRProtocolManager-dummy.m */,
-				534D17361CF9A82C60BFAC29D8E9592B /* CRProtocolManager-prefix.pch */,
+				C8FBD56B1280D3249BEEBE0C5A179476 /* CRProtocolManager.xcconfig */,
+				D7838662AB5667A146693B7A05119D53 /* CRProtocolManager-dummy.m */,
+				90093893E93E0944A5FF2263A2FCB05B /* CRProtocolManager-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CRProtocolManager";
@@ -109,13 +141,21 @@
 			path = "Target Support Files/Pods-CRGoodsDetail";
 			sourceTree = "<group>";
 		};
-		2AD3471DD902304DBBB0E71A5022B673 /* Products */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7FE74531E0791C29FBD6B2C9A2D6C90A /* libCRProtocolManager.a */,
-				CF901C218070576AA900494FF44D3E98 /* libPods-CRGoodsDetail.a */,
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46F96C862270DAFE85A9526BDE192F80 /* ZTOrderProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				6CD4261083A6E42B2FD3DB13BF57427F /* ZTOrderProtocol.h */,
+			);
+			name = ZTOrderProtocol;
+			path = ZTOrderProtocol;
 			sourceTree = "<group>";
 		};
 		613978B8D00E1607598B97133F305981 /* Targets Support Files */ = {
@@ -126,42 +166,79 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+		6BA0A9D59A105E9AC38D8F2C5791AAC0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				7531B99546FC7C0869DF18986C3DE5FD /* CRGoodsDetailServiceProtocol */,
+				8E8D25B4F6C3D4986F548738CFD75333 /* CRProtocolManager */,
+				46F96C862270DAFE85A9526BDE192F80 /* ZTOrderProtocol */,
+				9CE1FD6FAD9FAAD8EFB3A508FDE5DE58 /* ZTOrderServerProvide */,
 			);
-			name = iOS;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7531B99546FC7C0869DF18986C3DE5FD /* CRGoodsDetailServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				47D5DA442755B37F652C4A8966187840 /* CRGoodsDetailServiceProtocol.h */,
+			);
+			name = CRGoodsDetailServiceProtocol;
+			path = CRGoodsDetailServiceProtocol;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0D4EB0B8DC5FEF5E79AFF9B838E716E7 /* Pods */,
-				2AD3471DD902304DBBB0E71A5022B673 /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				6BA0A9D59A105E9AC38D8F2C5791AAC0 /* Pods */,
+				018A275B30B87586DFF5CD09BE09EA23 /* Products */,
 				613978B8D00E1607598B97133F305981 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		915BCDE01780CBB0A7C7B85902A33B21 /* CRProtocolManager */ = {
+		8E8D25B4F6C3D4986F548738CFD75333 /* CRProtocolManager */ = {
 			isa = PBXGroup;
 			children = (
-				A2C8186561C0ED391020B968F9D9E714 /* CRProtocolManager.h */,
-				D1F5407EFBD3F5604CA0B8E12BB20786 /* CRProtocolManager.m */,
-				1D8D1BF2BB0B2EA24FB47FBEDDE3F80E /* Support Files */,
+				367086A725AE4C5FF19C940E88490973 /* CRProtocolManager.h */,
+				81F826D86DDBF1F308F763660AEB988B /* CRProtocolManager.m */,
+				06895951BB77A1DE8F8FA674B1563BA9 /* Support Files */,
 			);
 			name = CRProtocolManager;
 			path = CRProtocolManager;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		9CE1FD6FAD9FAAD8EFB3A508FDE5DE58 /* ZTOrderServerProvide */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				091DAE70A0057C03585E73B32809BF2F /* ZTOrderServerProvide.h */,
+				B9A3923EE67CA6D1A5C5C243BDE1F7F7 /* ZTOrderServerProvide.m */,
+				5BBA93B79E55D5183D69EA7CD60CCB86 /* ZTOrderViewController.h */,
+				E298668E9F57C89B2880DCA591DFB51C /* ZTOrderViewController.m */,
+				C914141883F200255DF249BB81716268 /* Support Files */,
 			);
-			name = Frameworks;
+			name = ZTOrderServerProvide;
+			path = ZTOrderServerProvide;
+			sourceTree = "<group>";
+		};
+		C914141883F200255DF249BB81716268 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				366E73877D69469775FFC46B6D014043 /* ZTOrderServerProvide.xcconfig */,
+				C9FAFDDC38D79FB78A95F38C5A541E06 /* ZTOrderServerProvide-dummy.m */,
+				786E26BCA6C36879C3B630DADB5D2B17 /* ZTOrderServerProvide-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZTOrderServerProvide";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,9 +252,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		844BFB081BD3131902F9C351088005E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A94B9A83C569D47214E7935448C32B /* ZTOrderServerProvide.h in Headers */,
+				04AFAED8427403A009146B36CBB563B8 /* ZTOrderViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		B0D5035A2431CBFE7B40EDEC7392A330 /* ZTOrderServerProvide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB30EFD29F96A20C20B0E81A4D90AB5F /* Build configuration list for PBXNativeTarget "ZTOrderServerProvide" */;
+			buildPhases = (
+				96DE930253E378C7C2408E5BB8E08BA8 /* Sources */,
+				E2049FD634EFC31757B55CA919B70BF3 /* Frameworks */,
+				844BFB081BD3131902F9C351088005E2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F13C9A45234CC5B5387BA3EFD478AE5 /* PBXTargetDependency */,
+			);
+			name = ZTOrderServerProvide;
+			productName = ZTOrderServerProvide;
+			productReference = BB8617DF045FFB50499C13786EBF0912 /* libZTOrderServerProvide.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		B4110ED21358443C7C4BC974FA1BF5F1 /* CRProtocolManager */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBD45F2EBDB41E6719E8D9633FF8610C /* Build configuration list for PBXNativeTarget "CRProtocolManager" */;
@@ -192,24 +296,25 @@
 			);
 			name = CRProtocolManager;
 			productName = CRProtocolManager;
-			productReference = 7FE74531E0791C29FBD6B2C9A2D6C90A /* libCRProtocolManager.a */;
+			productReference = 4062846307AEA8292910272EF31C3EE4 /* libCRProtocolManager.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		D469B88EA2E165BABC3F3681B90CCBDC /* Pods-CRGoodsDetail */ = {
+		D975F5019DF76F69A67598B6B32C7925 /* Pods-CRGoodsDetail */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7DCDEAD748E7CE0A9972018A7CA68C53 /* Build configuration list for PBXNativeTarget "Pods-CRGoodsDetail" */;
+			buildConfigurationList = 9DE05B221C0E7711A648D821973AB845 /* Build configuration list for PBXNativeTarget "Pods-CRGoodsDetail" */;
 			buildPhases = (
-				F5C576429E7C4FF1AE0D6189832C5739 /* Sources */,
-				5CDC004ACD7B1EF1987CCAD90EEB458E /* Frameworks */,
+				00C49C35CBE3015183FD12C15F15A07C /* Sources */,
+				0985907FED9CA182A764639B3D39D712 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				62DEAFE023E79C95FD40C14212A2DBC5 /* PBXTargetDependency */,
+				3DBFCD01C9F7CD014C7C52CF397D9A0B /* PBXTargetDependency */,
+				254288226CD2165A9F6EE112B0AB5C4B /* PBXTargetDependency */,
 			);
 			name = "Pods-CRGoodsDetail";
 			productName = "Pods-CRGoodsDetail";
-			productReference = CF901C218070576AA900494FF44D3E98 /* libPods-CRGoodsDetail.a */;
+			productReference = 6E305D8E8189678B8765377EADBF0EAB /* libPods-CRGoodsDetail.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -229,17 +334,26 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2AD3471DD902304DBBB0E71A5022B673 /* Products */;
+			productRefGroup = 018A275B30B87586DFF5CD09BE09EA23 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				B4110ED21358443C7C4BC974FA1BF5F1 /* CRProtocolManager */,
-				D469B88EA2E165BABC3F3681B90CCBDC /* Pods-CRGoodsDetail */,
+				D975F5019DF76F69A67598B6B32C7925 /* Pods-CRGoodsDetail */,
+				B0D5035A2431CBFE7B40EDEC7392A330 /* ZTOrderServerProvide */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		00C49C35CBE3015183FD12C15F15A07C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AAF37D2F13B916B7FB25E11D9B549DB /* Pods-CRGoodsDetail-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		461140889556872651C9DA8EAB7904C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,49 +363,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5C576429E7C4FF1AE0D6189832C5739 /* Sources */ = {
+		96DE930253E378C7C2408E5BB8E08BA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0FF4E0AC0AC4E55A15FBB2245480CA /* Pods-CRGoodsDetail-dummy.m in Sources */,
+				7173D74D350470D6487BCCED109E32C4 /* ZTOrderServerProvide-dummy.m in Sources */,
+				6DEA045F4F24519C32DCEA5D4FFE9D8A /* ZTOrderServerProvide.m in Sources */,
+				704D0337BB305D107C867FAD011A1D90 /* ZTOrderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		62DEAFE023E79C95FD40C14212A2DBC5 /* PBXTargetDependency */ = {
+		254288226CD2165A9F6EE112B0AB5C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZTOrderServerProvide;
+			target = B0D5035A2431CBFE7B40EDEC7392A330 /* ZTOrderServerProvide */;
+			targetProxy = 09847BB8F7C4C0FD8EAE3354E1412F88 /* PBXContainerItemProxy */;
+		};
+		2F13C9A45234CC5B5387BA3EFD478AE5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CRProtocolManager;
 			target = B4110ED21358443C7C4BC974FA1BF5F1 /* CRProtocolManager */;
-			targetProxy = 2808455967C8D46A9A257389D899E56D /* PBXContainerItemProxy */;
+			targetProxy = A298243175CAD09236D0504735745238 /* PBXContainerItemProxy */;
+		};
+		3DBFCD01C9F7CD014C7C52CF397D9A0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CRProtocolManager;
+			target = B4110ED21358443C7C4BC974FA1BF5F1 /* CRProtocolManager */;
+			targetProxy = D7400A768D01ECAE365C7D163FFBA6D1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0B7E4AED2A72966CFB6E834FA1597A05 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AD2B3B76618F454DEA296D4A2F369BB /* Pods-CRGoodsDetail.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -336,9 +441,32 @@
 			};
 			name = Debug;
 		};
+		4D9D5CF4CD7F7815434CA86E084D30EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 366E73877D69469775FFC46B6D014043 /* ZTOrderServerProvide.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZTOrderServerProvide/ZTOrderServerProvide-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		5087A6D05CC44750091EBF94D315C0FA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 051CA0F043B08B1B3C2F50250D2BC630 /* CRProtocolManager.xcconfig */;
+			baseConfigurationReference = C8FBD56B1280D3249BEEBE0C5A179476 /* CRProtocolManager.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -361,7 +489,7 @@
 		};
 		5CFB7C79BF8AE18E038425F1C4B32A2A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 051CA0F043B08B1B3C2F50250D2BC630 /* CRProtocolManager.xcconfig */;
+			baseConfigurationReference = C8FBD56B1280D3249BEEBE0C5A179476 /* CRProtocolManager.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -382,7 +510,7 @@
 			};
 			name = Release;
 		};
-		89BE39BC48D7E0A57929491173C0FFCA /* Debug */ = {
+		62AB81C51B49F99C72A61DB068B5DBFC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A2087DCD708F6FE26B326E02B3C579C5 /* Pods-CRGoodsDetail.debug.xcconfig */;
 			buildSettings = {
@@ -404,6 +532,52 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
+		};
+		853DBB6CEAF0B3CD6D6D11EFC8FF6855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AD2B3B76618F454DEA296D4A2F369BB /* Pods-CRGoodsDetail.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		92F854395B4D9BFAC9A7F473B87DFA43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 366E73877D69469775FFC46B6D014043 /* ZTOrderServerProvide.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZTOrderServerProvide/ZTOrderServerProvide-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
 		};
 		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -457,11 +631,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7DCDEAD748E7CE0A9972018A7CA68C53 /* Build configuration list for PBXNativeTarget "Pods-CRGoodsDetail" */ = {
+		9DE05B221C0E7711A648D821973AB845 /* Build configuration list for PBXNativeTarget "Pods-CRGoodsDetail" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				89BE39BC48D7E0A57929491173C0FFCA /* Debug */,
-				0B7E4AED2A72966CFB6E834FA1597A05 /* Release */,
+				62AB81C51B49F99C72A61DB068B5DBFC /* Debug */,
+				853DBB6CEAF0B3CD6D6D11EFC8FF6855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -471,6 +645,15 @@
 			buildConfigurations = (
 				5087A6D05CC44750091EBF94D315C0FA /* Debug */,
 				5CFB7C79BF8AE18E038425F1C4B32A2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB30EFD29F96A20C20B0E81A4D90AB5F /* Build configuration list for PBXNativeTarget "ZTOrderServerProvide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D9D5CF4CD7F7815434CA86E084D30EA /* Debug */,
+				92F854395B4D9BFAC9A7F473B87DFA43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

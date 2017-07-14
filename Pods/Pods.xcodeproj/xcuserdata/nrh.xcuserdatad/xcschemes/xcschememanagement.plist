@@ -14,15 +14,25 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ZTOrderServerProvide.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>B0D5035A2431CBFE7B40EDEC7392A330</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>B4110ED21358443C7C4BC974FA1BF5F1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D469B88EA2E165BABC3F3681B90CCBDC</key>
+		<key>D975F5019DF76F69A67598B6B32C7925</key>
 		<dict>
 			<key>primary</key>
 			<true/>

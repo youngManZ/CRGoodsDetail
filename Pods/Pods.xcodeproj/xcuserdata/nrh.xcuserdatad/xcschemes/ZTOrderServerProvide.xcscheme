@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D975F5019DF76F69A67598B6B32C7925'
-               BlueprintName = 'Pods-CRGoodsDetail'
+               BlueprintIdentifier = 'B0D5035A2431CBFE7B40EDEC7392A330'
+               BlueprintName = 'ZTOrderServerProvide'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-CRGoodsDetail.a'>
+               BuildableName = 'libZTOrderServerProvide.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -7,6 +7,10 @@
 //
 
 #import "CRGoodsDetailViewController.h"
+#import <ZTOrderServerProvide/ZTOrderServerProvide.h>
+#import <ZTOrderServerProvide/ZTOrderViewController.h>
+#import <ZTOrderProtocol/ZTOrderProtocol.h>
+#import <CRProtocolManager/CRProtocolManager.h>
 
 @interface CRGoodsDetailViewController ()
 
@@ -50,7 +54,11 @@
 #pragma mark - event
 - (void)didClickBuyButton:(UIButton *)button
 {
-    
+    id<ZTOrderProtocol> ztOrderProtocol = [CRProtocolManager serviceProvideForProtocol:@protocol(ZTOrderProtocol)];
+    UIViewController *goodsDetailVC = [ztOrderProtocol confirmOrderViewControllerWithGoodsId:@"120" sureComplete:^{
+        [_statusLabel setText:@"已经购买"];
+    }];
+    [self presentViewController:goodsDetailVC animated:YES completion:nil];
 }
 
 #pragma mark - getters
